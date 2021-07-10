@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right,rgb(69, 69, 179),rgb(59, 59, 61));
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: 100vh;
+  }
+  .page-footer,.top-nav-collapse{
+      background-color:#1C2331;
+    }
+    .navbar{
+        background-color:#1C2331;
+        background-color:rgba(0,0,0,.2);
+    
+    }
+    .container-fluid {
+        background-color: #1C2331,rgba(0,0,0,.2);
+        font-family: sans-serif;
+        color: #ddd;
+        padding-top: 70px; 
+    }
+
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+        background-color: transparent;
+      }
+      a:active {
+          color: transparent;
+          background-color: transparent;
+      }
+      .main-container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        width: 40%;
+    }
+
+      /*Footer*/
+      .footer{
+        text-align: center;
+        bottom: 0;
+        margin-top: 50%;
+        display: flex;
+        justify-content: space-around;
+        background-image: linear-gradient(to right,rgb(0, 0, 0), rgb(66, 66, 66));
+
+      }
+       .col {
+        width: 190px;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0px 20px 20px 20px;
+      }
+       .col h1 {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 17px;
+        padding: 20px 0px 5px 0px;
+        color: whitesmoke;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 0.250em;
+      }
+       .col ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+       .col ul li {
+        color: white;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 5px 0px 5px 0px;
+        cursor: pointer;
+        transition: .2s;
+      }
+      .col ul li a{
+        color: white;
+      }
+
+
